@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code generator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    
+    
+</head>
+
+<body>
+<!---------------------------------------------->
+
+    <div id="divIn">
+
+        <div id="txtDiv1">
+            <h1>Input</h1>
+        </div>
+
+
+        <div id="UiDiv">
+
+            <div id="TxtInputDiv">
+            <input id="qrCodeInTxt" type="text" placeholder="Enter a URL">
+            </div>
+
+            <div id="BtnDiv">
+                <button id="qrCodeBtn"> 
+                <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="divOut">
+
+        <div id="txtDiv2">
+            <h1>Output</h1>
+        </div>
+
+        <div id="qrCodeDiv">
+
+        </div>
+
+    </div>
+
+
+<!---------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
